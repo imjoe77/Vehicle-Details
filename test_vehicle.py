@@ -7,5 +7,5 @@ def test_vehicle_details():
         "vehicle_type = Car \n",
         "year = 2020"
     )
-    
+
     assert vehicle_details("101", "Rohit", "Car", "2020") == expected_output
